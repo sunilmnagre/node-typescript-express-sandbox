@@ -27,6 +27,8 @@
     "swagger-ui-express": "^4.1.4"
   },
   "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.13.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "chai-sorted": "^0.2.0",

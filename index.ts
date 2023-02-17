@@ -1,13 +1,13 @@
 "use strict";
 
-import express from "express";
+import express, { Express, Request, Response } from 'express';
 import cors from "cors";
 import jsend from "jsend";
 import swaggerUi from "swagger-ui-express";
 import swaggerDocument from "./api-docs/swagger.js";
 import routes from "./app/routes/index";
 
-const app = express();
+const app: Express = express();
 
 // Setup express server port from ENV, default: 8001
 const port = process.env.PORT || 8001;
